@@ -3,3 +3,5 @@ this my second line
 this is my third line
 this is my fourth line
 this is my fifth line
+this is my six line
+thsi is my seventh line
