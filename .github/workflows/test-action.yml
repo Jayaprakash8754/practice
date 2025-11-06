@@ -14,9 +14,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
+
       - name: Show branch name
-        run: echo "Branch name: ${{ github.ref }}"
+        run: echo "Branch name: ${{ test_github_action }}"
       
       - name: List files
         run: ls -l
