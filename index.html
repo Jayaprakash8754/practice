@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dramatic Business Landing</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background: #fff;
+            color: #222;
+        }
+        /* Navigation Bar */
+        nav {
+            background: #222;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 24px;
+        }
+        .logo {
+            color: #fff;
+            font-weight: bold;
+            font-size: 18px;
+            margin-right: 16px;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 12px;
+            padding: 9px 12px;
+            border-radius: 2px;
+        }
+        .navbar a.active,
+        .navbar a:hover {
+            background: #000;
+        }
+        .search-box {
+            background: #fff;
+            border-radius: 2px;
+            padding: 8px;
+            display: flex;
+            align-items: center;
+        }
+        .search-box input {
+            border: none;
+            outline: none;
+            padding: 6px 8px;
+        }
+        .search-box button {
+            padding: 6px 14px;
+            background: #222;
+            color: #fff;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        /* Hero Section */
+        .hero {
+            background: #87d34c;
+            padding: 55px 0 38px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 9px;
+            color: #fff;
+            font-weight: bold;
+        }
+        .hero p {
+            color: #c7f5a4;
+            font-size: 18px;
+            margin-bottom: 21px;
+        }
+        .hero button {
+            padding: 10px 24px;
+            background: #266819;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        /* Main Content */
+        .main-content {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 34px 20px;
+        }
+        .main-content h2 {
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+        .main-content .subtitle {
+            text-align: center;
+            color: #555;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        .main-content .description {
+            text-align: center;
+            color: #888;
+            margin-bottom: 35px;
+            font-size: 15px;
+        }
+        /* Card Section */
+        .card-row {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+        }
+        .card {
+            background: #f2f2f2;
+            border-radius: 4px;
+            padding: 14px 13px 18px 13px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .card .card-img {
+            background: #ddd;
+            text-align: center;
+            font-size: 33px;
+            color: #999;
+            border-radius: 2px;
+            margin-bottom: 13px;
+            height: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card h3 {
+            color: #27a5ff;
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+        .card p {
+            color: #333;
+            font-size: 14px;
+        }
+        @media (max-width: 900px) {
+            .card-row {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <span class="logo">Logo</span>
+        <div class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+            <a href="#">Services</a>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </nav>
+    <div class="hero">
+        <h1>Dramatically Engage</h1>
+        <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+        <button>Engage Now</button>
+    </div>
+    <div class="main-content">
+        <h2>Superior Collaboration <span class="subtitle">Visualize Quality</span></h2>
+        <div class="description">
+            Proactively envisioned multimedia based expertise and cross-media growth strategies.
+            Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.
+            Holistically pontificate installed base portals after maintainable products.
+        </div>
+        <div class="card-row">
+            <div class="card">
+                <div class="card-img">700x300</div>
+                <h3>Efficiently Unleash</h3>
+                <p>Credibly administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users.</p>
+            </div>
+            <div class="card">
+                <div class="card-img">700x300</div>
+                <h3>Completely Synergize</h3>
+                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Efficiently unleash cross-media resources.</p>
+            </div>
+            <div class="card">
+                <div class="card-img">700x300</div>
+                <h3>Dynamically Procrastinate</h3>
+                <p>Professionally cultivate one-to-one customer service with robust ideas. Completely synergize resource maximizing.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
